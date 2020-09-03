@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1"/>
+    <title>Facebook</title>
+    <link rel="shortcut icon" type="image/png" href="./facebook_3_img/logo.svg" />
+    <link rel="stylesheet" href="./facebook_3.css">
+    <script src="./facebook_3.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head_left">
+            <img id="logo_img" src="./facebook_3_img/facebooklogo.jpg">
+            <div class="input">
+                <img id="search_logo_img" src="./facebook_3_img/search_logo.jpg">
+                <input type="search" placeholder="Facebook 검색">
+            </div>
+        </div>
+        <div class="head_mid">
+            <div class="home">
+                <img src="./facebook_3_img/home_2.jpg" style="cursor: pointer;">
+            </div>
+            <div class="watch">
+                <img src="./facebook_3_img/watch_2.jpg" style="cursor: pointer;">
+            </div>
+            <div class="group">
+                <img src="./facebook_3_img/group_2.jpg" style="cursor: pointer;">
+            </div>
+            <div class="gaming">
+                <img src="./facebook_3_img/gaming_2.jpg" style="cursor: pointer;">
+            </div>
+        </div>
+        <div class="head_right">
+            <img id="user_img" src="./facebook_3_img/user.jpg">
+            <span class="user_name">
+                예림
+            </span>
+            <div class="head_right_image">
+                <img id="making" src="./facebook_3_img/make.jpg">
+                <img src="./facebook_3_img/messenger.jpg">
+                <img src="./facebook_3_img/ring.jpg">
+                <img src="./facebook_3_img/account.jpg">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="left">
+            <div class="main_left">
+                <div class="user_left">
+                    <img id="user_left_img" src="./facebook_3_img/user_2.jpg" alt="user">
+                    <span>
+                        예림
+                    </span>
+                </div>   
+                <div class="covid19">
+                    <img src="./facebook_3_img/covid.png" alt="covid19">
+                    <span>
+                        코로나19 정보 센터
+                    </span>
+                </div>
+                <div class="friends">
+                    <img src="./facebook_3_img/friends.png" alt="friends">
+                    <span>
+                        친구
+                    </span>
+                </div>
+                <div class="messenger_left">
+                    <img src="./facebook_3_img/messenger.png" alt="messenger">
+                    <span>
+                        Messenger
+                    </span>
+                </div>
+                <div class="page">
+                    <img src="./facebook_3_img/page.png" alt="page">
+                    <span>
+                        페이지
+                    </span>
+                </div>
+                <div class="plus">
+                    <img src="./facebook_3_img/plus.jpg" alt="plus">
+                    <span class="plus_text">
+                        더보기
+                    </span>
+                </div>
+            </div>
+            <div class="left_bottom">
+                <span style="color: #87868B" >
+                    개인정보처리방침 · 약관 · 광고 · AdChoices <img src="./facebook_3_img/AdChoices.jpg" alt="AdChoices"> · 쿠키 · 더보기 · Facebook © 2020
+                </span>
+            </div>
+        </div>
+        <div class="main_mid">
+            <div class="main_box">
+                <div class="box_top">
+                    <img id="box_user_img" src="./facebook_3_img/user_2.jpg" alt="user">
+                    <div id="write" onclick="popup()">예림님, 무슨 생각을 하고 계신가요?</div>
+                </div>
+                <div class="box_bottom">
+                    <div class="center live">
+                        <div class="live">
+                        <img id="live_img" src="./facebook_3_img/live.jpg" alt="live" style="height: 20px;">
+                        <span>
+                        라이브 방송
+                        </span>
+                        </div>
+                    </div>
+                    <div class="center photo">
+                        <div class="photo">
+                        <img id="photo_img" src="./facebook_3_img/photo.jpg" alt="photo">
+                        <span>
+                            사진/동영상
+                        </span>
+                        </div>
+                    </div>
+                    <div class="center smile">
+                        <div class="smile">
+                        <img id="smile_img" src="./facebook_3_img/smile.jpg" alt="smile">
+                        <span>
+                            기분/활동
+                        </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contents">
+
+            </div>
+        </div>
+    </main>
+    <div id="post">
+    </div>
+    <div id="post_pop">
+        <div class="post_title">
+            <span>게시물 만들기</span>
+            <img id="close" src="./facebook_3_img/cancel.jpg">
+        </div>
+        <div class="post_user">
+            <img id="post_user_img" src="./facebook_3_img/user_2.jpg">
+            <div class="post_user_etc">
+                <span class="post_user_name">예림</span>
+                <img id="post_see" src="./facebook_3_img/see.jpg">
+            </div>
+        </div>
+        <div class="post_contents">
+            <form>
+                <p>
+                    <textarea id="post_write" placeholder="예림님, 무슨 생각을 하고 계신가요?" cols="447.2px" rows="4"></textarea>
+                </p>
+            </form>
+        </div>
+        <div class="post_etc">
+            <div class="post_type">
+                <span>게시물에 추가</span>
+                <div class="post_etc_img">
+                    <img src="./facebook_3_img/video.jpg" style="height: 15px;">
+                    <img src="./facebook_3_img/photo.jpg">
+                    <img src="./facebook_3_img/tag.jpg">
+                    <img src="./facebook_3_img/check.jpg" style="width: 20px;">
+                    <img src="./facebook_3_img/smile.jpg">
+                    <img src="./facebook_3_img/etc.jpg" style="height: 5px; width: 19px;">
+                </div>
+            </div>
+            <input id="submit" type="submit" value="게시">
+        </div>
+    </div>
+</body>
+</html>
