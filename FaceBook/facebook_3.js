@@ -6,6 +6,7 @@ function popup()
     post.style.display='block';
     pop.style.display='block';
 }
+
 window.onload=function(){
     const close = document.getElementById("close");
     const submit = document.getElementById("submit");
